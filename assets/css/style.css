@@ -123,7 +123,8 @@ h2 {
 /* club exercise */
 
 #club-exercise {
-    height: 600px;      /* This is to be consistant with the main image section of page */
+    height: 600px;
+    /* This is to be consistant with the main image section of page */
 }
 
 #left-about {
@@ -142,7 +143,8 @@ h2 {
 
 #center-about {
     width: 33%;
-    margin: 0 auto;     /* This will center the div for us (0 auto) in margin */
+    margin: 0 auto;
+    /* This will center the div for us (0 auto) in margin */
     /*background-color: green;*/
 }
 
@@ -156,8 +158,10 @@ hr {
     width: 60%;
     float: right;
     line-height: 20px;
-    clear: both;        /* This ensures each content block is aligned vertically */
-    margin-bottom: 50px;        /* This gives some room between each div */
+    clear: both;
+    /* This ensures each content block is aligned vertically */
+    margin-bottom: 50px;
+    /* This gives some room between each div */
 }
 
 .right-about-heading {
@@ -204,6 +208,7 @@ hr {
 }
 
 /* exercise event times */
+
 #times {
     background-image: url(../images/dublin-city.webp);
     background-repeat: no-repeat;
@@ -211,4 +216,20 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
+}
+
+#times div {
+    color: #afafaf;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2 {
+    color: #afafaf;
 }
