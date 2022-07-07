@@ -120,28 +120,58 @@ h2 {
     position: absolute;
 }
 
- /* club exercise */
+/* club exercise */
 
- #club-exercise {
-    height: 600px;  /* This is to be consistant with the main image section of page */
- }
+#club-exercise {
+    height: 600px;      /* This is to be consistant with the main image section of page */
+}
 
- #left-about {
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;  /* This is for structural purpose so we can distinguish between div's */
- }
+    /*background-color: blue;  /* This is for structural purpose so we can distinguish between div's */
+}
 
- #right-about {
+#right-about {
     padding: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
- }
+    /* background-color: silver; */
+}
 
- #center-about {
+#center-about {
     width: 33%;
-    margin: 0 auto; /* This will center the div for us (0 auto) in margin */
+    margin: 0 auto;     /* This will center the div for us (0 auto) in margin */
     background-color: green;
- }
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;        /* This ensures each content block is aligned vertically */
+    margin-bottom: 50px;        /* This gives some room between each div */
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
