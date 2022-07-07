@@ -119,3 +119,29 @@ h2 {
 
     position: absolute;
 }
+
+ /* club exercise */
+
+ #club-exercise {
+    height: 600px;  /* This is to be consistant with the main image section of page */
+ }
+
+ #left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;  /* This is for structural purpose so we can distinguish between div's */
+ }
+
+ #right-about {
+    padding: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+ }
+
+ #center-about {
+    width: 33%;
+    margin: 0 auto; /* This will center the div for us (0 auto) in margin */
+    background-color: green;
+ }
